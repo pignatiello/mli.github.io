@@ -183,10 +183,41 @@ img, svg {
   color: var(--text);
 }
 
-.logo-mark {
-  width: 20px;
-  height: 20px;
+.inception-ribbon {
+  background: var(--panel);
+  border-bottom: 1px solid var(--border);
+  padding: 22px 0;
+}
+
+.inception-ribbon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--pad-mobile);
+  color: var(--text);
+}
+
+.inception-ribbon-link img {
+  display: block;
+  height: 100px;
+  width: auto;
   flex-shrink: 0;
+}
+
+.inception-ribbon-link span {
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.logo-mark {
+  height: 28px;
+  width: auto;
+  flex-shrink: 0;
+  display: block;
 }
 
 .nav-right {
@@ -289,7 +320,7 @@ a.lang-link:hover {
 ========================================= */
 .hero {
   position: relative;
-  padding: 8rem 24px 6rem;
+  padding: 5rem 24px 4rem;
   overflow: hidden;
 }
 
